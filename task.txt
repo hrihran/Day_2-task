@@ -1,0 +1,40 @@
+Difference between document and windows objects
+
+windows is the main javascript object  also called the global objects in a browser and 
+it can also be treated as the root of the document objects model.
+it can access using windows keyword.
+
+since windows is gobal variable, it can access some properties using windows.property name
+example windows.screen is samll information about the screen size.
+
+window.property_name
+----------------------
+window.innerWidth
+window.innerWidth
+window.innerHeight
+window.length
+window.console
+
+Methods:
+window.method_name
+--------------------
+window.close()
+window.alert()
+window.setTimeout()
+window.clearTimeout()
+window.stop()
+window.prompt()
+
+Document object is your html,aspx,php or other document that will be loaded 
+into browser. the document actually get loaded inside the window object and has 
+properties available to like cookies ,url , title.
+
+
+Properties:
+document.property_name
+head,title,body,forms,links,URL
+
+Methods:
+document.method_name
+addEventListener()
+createAttribute()
